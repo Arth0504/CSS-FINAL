@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Accedmy </title>
+    
+</head>
+<style>
+    
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.sidebar {
+    width: 25%;
+    padding: 15px;
+    background-color: #f9f9f9;
+    float: left; 
+    margin-right: 20px;
+}
+
+.sidebar-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+.content {
+    width: 75%;
+    padding: 15px;
+    background-color: #fff;
+    float: left; 
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Codding Accedmy</h1>
+    </header>
+
+    <div class="container clearfix">
+        <aside class="sidebar">
+            <h2>About Class</h2>
+            <img src="knowledgeable-teacher-giving-lecture-about-600nw-2326351731.webp" alt="About Me Image" class="sidebar-img">
+            <p>Computer classes teach students the basics of computers and can help prepare them to use computers in their daily lives. Computer courses can also lead to job opportunities in the IT industry</p>
+        </aside>
+
+        <section class="content">
+            <article>
+                <h2>Full Stack Devlopment</h2>
+                <img src="full-stack-web-developer.png"  class="post-img">
+                <p>Full stack development is the process of developing both the frontend and backend of applications. Any application has a frontend (user-facing) component and a backend (database and logic) component. The frontend contains the user interface and code related to user interactions with the application.</p>
+            </article>
+
+            <article>
+                <h2>Grapic Design</h2>
+                <img src="GRAPIC DESIGN.jpg" class="post-img">
+                <p>Graphic Design is about Molding the User Experience Visually
+                    It's a term that originated in the 1920s' print industry. It continues to cover a range of activities including logo creation. Graphic design in this sense concerns aesthetic appeal and marketing.</p>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+</body>
+</html>

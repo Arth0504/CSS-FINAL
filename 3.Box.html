@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.testimonial-section {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.testimonial-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.testimonial-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: translateY(-10px);
+}
+
+.user-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+h4 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #777;
+}
+
+p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+</style>
+<body>
+    <section class="testimonial-section">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-box">
+            <div class="testimonial">
+                <img src="1628197118551.jpeg" alt="User Image" class="user-img">
+                <h3>John Doe</h3>
+                <h4>CEO at Company</h4>
+                <p>"This product has completely changed the way we do business. Outstanding quality and support!"</p>
+            </div>
+            <div class="testimonial">
+                <img src="images(@).jpeg" alt="User Image" class="user-img">
+                <h3>Jane Smith</h3>
+                <h4>Marketing Director</h4>
+                <p>"Incredible service and fantastic results! Highly recommend to anyone looking for top-notch work."</p>
+            </div>
+            <div class="testimonial">
+                <img src="mj.jpeg" alt="User Image" class="user-img">
+                <h3>Mike Johnson</h3>
+                <h4>Entrepreneur</h4>
+                <p>"From start to finish, the experience was exceptional. The team truly understands our needs."</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
